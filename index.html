@@ -35,7 +35,61 @@
     <div class="backdrop is-hidden" data-reweu>
       <!--  -->
       <div class="reweu">
-        <button type="button" class="reweu-close" data-reweu-close>
+        <button type="button" class="reweu-close" data-reweu-close="" >
+          <svg class="icon-close" width="14" height="14">
+            <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+          </svg>
+        </button>
+        <h1 class="reweu-title">
+          LEAVE A REVIEW  ABOUT <span class="reweu-chenge"> OUR CHOCOLATE</span>
+        </h1>
+        <form class="reweu-form">
+          <div class="reweu-input-field">
+            <input
+              class="input-field"
+              type="text"
+              name="username"
+              placeholder="Name"
+            />
+          </div>
+          <div class="reweu-input-field">
+            <input
+              class="input-field"
+              type="email"
+              name="user-email"
+              placeholder="Enter you email"
+            />
+          </div>
+          <div class="reweu-input-field country">
+            <input
+              class="input-field country number"
+              type="tel"
+              name="user-phone"
+              placeholder="Phone number"
+            />
+
+            <svg class="icon-input" width="24" height="18">
+              <use href="./images/icons.svg#icon-rame"></use>
+            </svg>
+            <p class="code-input reweu-segment">+380</p>
+          </div>
+          <div class="reweu-input-field">
+            <textarea
+              class="input-field reweu-input"
+              name="user-comment"
+              placeholder="Enter text"
+            ></textarea>
+          </div>
+        </form>
+      
+        <button type="submit" class="reweu-button" data-thanks-open>Send</button>
+      </div>
+    </div>
+<!-- ------------------------------------------------------ -->
+    <div class="backdrop is-hidden" data-thanks>
+      <!--  -->
+      <div class="reweu-thanks">
+        <button type="button" class="reweu-close" data-thanks-close>
           <svg class="icon-close" width="14" height="14">
             <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
           </svg>
@@ -87,7 +141,9 @@
     </div>
 
    
-    <script src="./js/modal.js"></script>
+    <!-- <script src="./js/modal.js"></script> -->
     <script src="./js/reweu.js"></script>
+    <script src="./js/thanks.js"></script>
+    
   </body>
 </html>
